@@ -11,7 +11,7 @@ const Banner = ({ themeMode }) => {
     >
       <div className="   max-w-7xl mx-auto mt-20 sm:mt-0   px-6   grid grid-cols-1 md:grid-cols-2   gap-12   items-center ">
         {/* Left Content */}
-        <div className="space-y-7">
+        <div className="space-y-5">
           <span className=" tracking-widest text-amber-700 uppercase font-mono">
             Full Stack Web Developer
           </span>
