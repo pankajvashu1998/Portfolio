@@ -34,14 +34,14 @@ const Banner = ({ themeMode }) => {
           {/* Buttons */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4 ">
             <button className="  px-6 py-3   bg-amber-700 text-black font-semibold   rounded-lg   hover:bg-amber-600   transition">
-              View Projects
+              <a target="_blank" href="https://maicakeshop.vercel.app/"> View Projects</a>
             </button>
 
             <button
               className="flex justify-center items-center     px-6 py-3   border border-amber-600   text-amber-700   rounded-lg   hover:bg-amber-600 hover:text-black
                 transition "
             >
-             <a href="#contact"> Contact Me</a>
+              <a href="#contact"> Contact Me</a>
             </button>
 
             <a
