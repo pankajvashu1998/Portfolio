@@ -46,7 +46,7 @@ const Banner = ({ themeMode }) => {
             </button>
 
             <a
-              href="Resum.pdf"
+              href="Resume.pdf"
               target="_blank"
               className="flex justify-center items-center    px-6 py-3   border border-amber-600   text-amber-700   rounded-lg   hover:bg-amber-600 hover:text-black
                 transition "
