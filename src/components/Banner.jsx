@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { IoMdDownload } from "react-icons/io";
 const Banner = ({ themeMode }) => {
@@ -34,7 +35,7 @@ const Banner = ({ themeMode }) => {
           {/* Buttons */}
           <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4 ">
             <button className="  px-6 py-3   bg-amber-700 text-black font-semibold   rounded-lg   hover:bg-amber-600   transition">
-              <a target="_blank" href="https://maicakeshop.vercel.app/"> View Projects</a>
+              <Link href={"/projects"}>Projects</Link>
             </button>
 
             <button
