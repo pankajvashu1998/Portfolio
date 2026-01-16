@@ -35,6 +35,9 @@ const Contact = ({ themeMode }) => {
         contactForm
       );
 
+      console.log(response);
+      
+
       if (!response.data.success) {
         toast.error(response.data.message);
       }
